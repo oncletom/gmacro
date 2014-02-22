@@ -1,0 +1,30 @@
+{
+  "name": "gmacro",
+  "version": "0.1.0",
+  "description": "GraphicsMagic macros for my personal needs. Contains additional sugar to ease my work.",
+  "main": "./bin/cli.js",
+  "preferGlobal": true,
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oncletom/gmacro.git"
+  },
+  "keywords": [
+    "graphicsmagick",
+    "photography",
+    "oncletom"
+  ],
+  "author": "Thomas Parisot (https://oncletom.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oncletom/gmacro/issues"
+  },
+  "dependencies": {
+    "gm": "^1.14.2",
+    "commander": "^2.1.0",
+    "async": "^0.2.10"
+  }
+}
